@@ -48,7 +48,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/YOUR-NAME/github-publish-local-git.git ~/.claude/skills/github-publish-local-git
+git clone https://github.com/ZhiYuQN/github-publish-local-git.git ~/.claude/skills/github-publish-local-git
 ```
 
 WorkBuddy 用户把目标路径换成 `~/.workbuddy/skills/`。其他支持 Agent Skills 规范（`SKILL.md` + YAML frontmatter）的宿主，整个目录放进去即可。
@@ -71,7 +71,7 @@ WorkBuddy 用户把目标路径换成 `~/.workbuddy/skills/`。其他支持 Agen
 
 某个 Agent Skill 仓库（9 个文件，含 `references/` 子目录）用此流程发布：核对账号 → 建公开空仓库 → 沿用本地既有提交 → 添加 origin → 推送。随后用**匿名** API 请求确认 public 状态、MIT 许可证与 9 个文件全部就位。
 
-安装地址占位符（`YOUR-NAME`）在发布时被替换为实际账号，这是流程的一部分。
+安装地址占位符（`ZhiYuQN`）在发布时被替换为实际账号，这是流程的一部分。
 
 ---
 
